@@ -1,4 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://terreorange.com/'
 languageCode = 'fr-fr'
-title = 'Expériences'
 theme = 'terreorange'
+title = "terreorange"
+description = "Expériences : dessins, peintures, photographies, animations, histoires et autres textes"

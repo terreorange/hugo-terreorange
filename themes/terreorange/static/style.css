@@ -1,0 +1,75 @@
+img {
+
+	max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Un grille centrée dans la page, 3 colonnes */
+.articles {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.articles .item {
+
+	display: inline;
+    margin: 0;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+
+.articles .item .image {
+
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Pagination */
+.pagination {
+
+    text-align: center;
+    font-family: var(--police-meta);
+    font-weight: 300;
+    margin: 2em;
+}
+
+.pagination ul {
+
+    list-style: none;
+}
+
+.pagination li {
+
+    display: inline;
+    text-align: center;
+}
+
+.pagination a {
+
+    color: var(--texte-sombre);
+    border-radius: 0.3em;
+    margin: 0 0.2em;
+    padding: 0.5em;
+    background-color: var(--couleur-texte);
+}
+
+.pagination a:hover,
+.pagination .active a {
+
+    background-color: var(--vert-hover);
+    color: var(--couleur-texte);
+}
+
+.pagination .disabled {
+
+    display: none;
+}
+

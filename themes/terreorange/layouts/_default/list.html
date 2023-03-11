@@ -6,15 +6,38 @@
 
 {{ .Content }}
 
-<ul>
-  {{ $pages := .Pages }}
-  {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
-  {{ range (where $pages "Section" "!=" "") }}
-  <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-  </li>
-  {{ end }}
-</ul>
+<div class="articles">
+
+	{{ range .Paginator.Pages }}
+		<section class="item">
+
+			{{ with partial "getImage.html" . }}
+
+				{{ $image := . }}
+		   		{{ $image1000 := $image.Fill "1000x1000 q70 MitchellNetravali" }}
+		    	{{ $image1500 := $image.Fill "1500x1500 q70 MitchellNetravali" }}
+		   		{{ $image2000 := $image.Fill "2000x2000 q70 MitchellNetravali" }}
+    		
+				<a href='{{ .RelPermalink }}'>
+					<div class="image">
+        				<img
+            				srcset="{{ if gt $image.Width 1000 }} {{ $image1000.RelPermalink }} 1000w,{{ end }}
+                    				{{ if gt $image.Width 1500 }} {{ $image1500.RelPermalink }} 1500w,{{ end }}
+                    				{{ $image2000.RelPermalink }} 2000w"
+            				sizes="(min-width: 1800px) 33vw,
+                    				(min-width: 1200px) 50vw,
+                    				100vw"
+	            			alt="{{ .Title }}"
+    	        			width="{{ $image.Width }}"
+        	    			height="{{ $image.Height }}"
+						/>
+					</div>
+	    		</a>
+			{{ end }}
+		</section>
+	{{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}
 
 {{ partial "footer.html" . }}
