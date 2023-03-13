@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peinture on Expériences</title>
-    <link>http://example.org/categories/peinture/</link>
-    <description>Recent content in Peinture on Expériences</description>
+    <title>Peinture on terreorange</title>
+    <link>http://terreorange.com/categories/peinture/</link>
+    <description>Recent content in Peinture on terreorange</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 12 Mar 2010 09:33:28 +0000</lastBuildDate><atom:link href="http://example.org/categories/peinture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Mar 2010 09:33:28 +0000</lastBuildDate><atom:link href="http://terreorange.com/categories/peinture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autoportrait #12032010</title>
-      <link>http://example.org/12032010/</link>
+      <link>http://terreorange.com/12032010/</link>
       <pubDate>Fri, 12 Mar 2010 09:33:28 +0000</pubDate>
       
-      <guid>http://example.org/12032010/</guid>
+      <guid>http://terreorange.com/12032010/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bouquet #03022008</title>
-      <link>http://example.org/bouquet-03022008/</link>
+      <link>http://terreorange.com/bouquet-03022008/</link>
       <pubDate>Sat, 02 Feb 2008 15:00:09 +0000</pubDate>
       
-      <guid>http://example.org/bouquet-03022008/</guid>
+      <guid>http://terreorange.com/bouquet-03022008/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portrait #21112005</title>
-      <link>http://example.org/21112005/</link>
+      <link>http://terreorange.com/21112005/</link>
       <pubDate>Mon, 21 Nov 2005 17:19:11 +0000</pubDate>
       
-      <guid>http://example.org/21112005/</guid>
+      <guid>http://terreorange.com/21112005/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portrait #11092005</title>
-      <link>http://example.org/29/</link>
+      <link>http://terreorange.com/29/</link>
       <pubDate>Sun, 11 Sep 2005 17:13:19 +0000</pubDate>
       
-      <guid>http://example.org/29/</guid>
+      <guid>http://terreorange.com/29/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portrait #22052005</title>
-      <link>http://example.org/portrait-22052005/</link>
+      <link>http://terreorange.com/portrait-22052005/</link>
       <pubDate>Sun, 22 May 2005 09:08:35 +0000</pubDate>
       
-      <guid>http://example.org/portrait-22052005/</guid>
+      <guid>http://terreorange.com/portrait-22052005/</guid>
       <description></description>
     </item>
     

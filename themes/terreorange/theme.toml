@@ -9,7 +9,6 @@ homepage = "http://example.com/"
 tags = []
 features = []
 min_version = "0.41.0"
-paginate = '9'
 
 [author]
   name = ""

@@ -8,17 +8,17 @@
 
 <div class="articles">
 
-	{{ range .Paginator.Pages }}
+	{{ range (.Paginator 6).Pages }}
 		<section class="item">
+			<a href='{{ .RelPermalink }}'>
 
-			{{ with partial "getImage.html" . }}
+				{{ with partial "getImage.html" . }}
 
-				{{ $image := . }}
-		   		{{ $image1000 := $image.Fill "1000x1000 q70 MitchellNetravali" }}
-		    	{{ $image1500 := $image.Fill "1500x1500 q70 MitchellNetravali" }}
-		   		{{ $image2000 := $image.Fill "2000x2000 q70 MitchellNetravali" }}
+					{{ $image := . }}
+		   			{{ $image1000 := $image.Fill "1000x1000 q70 MitchellNetravali" }}
+		    		{{ $image1500 := $image.Fill "1500x1500 q70 MitchellNetravali" }}
+		   			{{ $image2000 := $image.Fill "2000x2000 q70 MitchellNetravali" }}
     		
-				<a href='{{ .RelPermalink }}'>
 					<div class="image">
         				<img
             				srcset="{{ if gt $image.Width 1000 }} {{ $image1000.RelPermalink }} 1000w,{{ end }}
@@ -32,8 +32,8 @@
         	    			height="{{ $image.Height }}"
 						/>
 					</div>
-	    		</a>
-			{{ end }}
+				{{ end }}
+	    	</a>
 		</section>
 	{{ end }}
 </div>

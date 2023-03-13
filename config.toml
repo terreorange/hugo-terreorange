@@ -2,4 +2,22 @@ baseURL = 'http://terreorange.com/'
 languageCode = 'fr-fr'
 theme = 'terreorange'
 title = "terreorange"
-description = "Expériences : dessins, peintures, photographies, animations, histoires et autres textes"
+paginate = 12
+
+[params]
+	description = "Expériences : dessins, peintures, photographies, animations, histoires et autres textes"
+
+[author]
+  name = "Jean-Yves Jourdain"
+  email = "jyjourdain@terreorange.com"
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'À propos'
+  url = '/a-propos/'
+  weight = 10
+  
+  
+[permalinks]
+  pages = '/:filename/'

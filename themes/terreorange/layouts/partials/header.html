@@ -10,8 +10,8 @@
   </head>
 
   <body>
-    {{ .Site.Title }}
-    {{ .Params.description }}
+    <h1>{{ .Site.Title }}</h1>
+    <h2>{{ $.Site.Params.description }}</h2>
     <nav>
     <ul class="menu">
       {{ range .Site.Menus.main }}
