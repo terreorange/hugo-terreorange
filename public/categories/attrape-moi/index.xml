@@ -6,12 +6,14 @@
     <description>Recent content in Attrape-moi ! on terreorange</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
+    <managingEditor>jyjourdain@terreorange.com (Jean-Yves Jourdain)</managingEditor>
+    <webMaster>jyjourdain@terreorange.com (Jean-Yves Jourdain)</webMaster>
     <lastBuildDate>Sat, 27 Dec 2014 11:09:47 +0000</lastBuildDate><atom:link href="http://terreorange.com/categories/attrape-moi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La salade</title>
       <link>http://terreorange.com/8/</link>
       <pubDate>Sat, 27 Dec 2014 11:09:47 +0000</pubDate>
-      
+      <author>jyjourdain@terreorange.com (Jean-Yves Jourdain)</author>
       <guid>http://terreorange.com/8/</guid>
       <description></description>
     </item>
