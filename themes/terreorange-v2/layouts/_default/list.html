@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<h1>{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ .Content }}
+
+<div class="articles">
+
+	{{ range (.Paginator).Pages }}
+		<section class="item">
+			<a href='{{ .RelPermalink }}'>
+				{{ with partial "getImage.html" . }}
+
+					{{ $image := . }}
+    		
+					<div class="image">
+        				<img
+            				srcset="{{ $image.RelPermalink }}"
+	            			alt="{{ .Title }}"
+						/>
+					</div>
+			<div class="imageTitle">
+				{{ .Title }}
+			</div>
+				{{ end }}
+	    	</a>
+		</section>
+	{{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}
+
+{{ partial "footer.html" . }}

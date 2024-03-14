@@ -1,6 +1,6 @@
 baseURL = 'http://terreorange.com/'
 languageCode = 'fr-fr'
-theme = 'terreorange'
+theme = 'terreorange-v2'
 title = "terreorange"
 paginate = 12
 

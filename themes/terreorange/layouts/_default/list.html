@@ -8,7 +8,7 @@
 
 <div class="articles">
 
-	{{ range (.Paginator 6).Pages }}
+	{{ range (.Paginator).Pages }}
 		<section class="item">
 			<a href='{{ .RelPermalink }}'>
 
