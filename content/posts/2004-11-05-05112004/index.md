@@ -10,4 +10,4 @@ format: image
 
 ---
 ![Rencontre #05112004](./D100_20041101_171218.jpg)
-Test
+À Beaubourg.
