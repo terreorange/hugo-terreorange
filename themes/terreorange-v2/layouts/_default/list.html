@@ -8,15 +8,16 @@
 
 <div class="items">
 
-	{{ range .Paginator.Pages }}
+	{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+	{{ range $paginator.Pages }}
 		<a href='{{ .RelPermalink }}'>
-				<div class="itemPublishDate">
-			{{ time.Format "2/1/2006" .PublishDate }}
-		</div>
-			<div class="itemTitle">
-				{{ .LinkTitle }}
-			</div>
 			<div class="item">
+				<div class="itemPublishDate">
+					{{ time.Format "2/1/2006" .PublishDate }}
+				</div>
+				<div class="itemTitle">
+					{{ .LinkTitle }}
+				</div>
 				{{ with partial "getImage.html" . }}
 	
 					{{ $image := . }}

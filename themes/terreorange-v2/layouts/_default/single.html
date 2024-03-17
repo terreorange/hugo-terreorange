@@ -1,13 +1,26 @@
 {{ partial "header.html" . }}
 
-<div class="itemTitle">
-	{{ .LinkTitle }}
-</div>
-<div class="itemPublishDate">
-	{{ time.Format "2/01/2006" .PublishDate }}
-</div>
-<div class="itemContent">
-	{{ .Content }}
+<div class="item">
+	<div class="itemTitle">
+		{{ .LinkTitle }}
+	</div>
+	<div class="itemPublishDate">
+		{{ time.Format "2/01/2006" .PublishDate }}
+	</div>
+	{{ with partial "getImage.html" . }}
+	
+		{{ $image := . }}
+	
+		<div class="itemImage">
+			<img
+				srcset="{{ $image.RelPermalink }}"
+				alt="{{ .Title }}"
+			/>
+		</div>
+	{{ end }}
+	<div class="itemContent">
+		{{ .Content }}
+	</div>
 </div>
 
 {{ partial "footer.html" . }}

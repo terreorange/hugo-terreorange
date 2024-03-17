@@ -3,19 +3,17 @@
 /* Variables */
 :root {
 
-    --police-texte: 'Atkinson Hyperlegible', sans-serif;
-    --police-titre: 'Atkinson Hyperlegible', sans-serif;
-    --police-meta: 'Atkinson Hyperlegible', sans-serif;
-    --vert: #487b00;
-    --vert-hover: #63aa01;
-    --couleur-texte: rgba(0, 0, 0, 0.7);
-    --fond-sombre: #0d1a08;
-    --texte-sombre: rgb(198, 211, 198);
-
-    --siteTitleColor: orange;                    /* Le fond du site, un beau bleu */
-    --siteBackground: blue;                    /* Le fond du site, un beau bleu */
-    --titlesFont: 'Atkinson Hyperlegible', sans-serif;     /* La police utilisée pour les titres */
-    --textsFont: serif;      /* La police utilisée pour le texte */
+    --siteTitleColor: orange;
+    --siteDescriptionColor: white;
+    --itemPublishDateColor: GrayText;
+    --itemDataColor: black;
+    --navigationTextColor: white;
+    --navigationTextBackgroundColor: #4999f0;
+    --siteBackground: #4999f0;
+    --itemBackground: white;
+    --titlesFont: 'Trebuchet MS', sans-serif;
+    --textsFont: 'Trebuchet MS', sans-serif;
+    --buttonsFont: 'Trebuchet MS', sans-serif;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -37,10 +35,9 @@ body {
 /* Le div qui contient tout */
 .siteMain {
     
-    background-color:white;
     margin: 5vw;
     padding: 2vw;
-    font-family: var(--police-meta);
+    font-family: var(--textsFont);
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -67,8 +64,8 @@ body {
     padding: 0vw;
     font-weight: normal;
     font-size: 1em;
-    color: gray;
-    font-family: var(--titlesFont);
+    color: var(--siteDescriptionColor);
+    font-family: var(--textsFont);
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -83,7 +80,7 @@ h1 {
 /* La liste des items (les posts) */
 .items {
 
-    background-color:white;
+    background-color: var(--siteBackground);
 }
 
 .items a {
@@ -91,29 +88,33 @@ h1 {
     text-decoration: none;
 }
 
-.items .item {
+.item {
 
-    padding: 0vw;
-    margin-bottom: 5vw;
-    color: gray;
+    padding: 1vw;
+    background-color: var(--itemBackground);
+    margin-top: 8vw;
+    border-radius: 1vw;
 }
 
 /* Le résumé */
-.items .item .itemSummary {
+.item .itemSummary {
 
     font-family: var(--textsFont);
+    color: var(--itemDataColor);
 }
 /* La date */
-.items .item .itemPublishDate {
+.item .itemPublishDate {
 
     font-family: var(--textsFont);
+    color: var(--itemPublishDateColor);
 }
 /* Le titre */
-.items .item .itemTitle {
+.item .itemTitle {
 
-    font-family: var(--textsFont);
+    font-family: var(--titlesFont);
+    color: var(--itemDataColor);
+    font-weight: bold;
 }
-
 .items .item .image {
 }
 
@@ -124,9 +125,10 @@ h1 {
     display: inline-block;
     width: 100%;
     text-align: left;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid white;
     list-style: none;
     padding: 0;
+    margin-top: 8vw;
 }
 .menu li {
     
@@ -137,7 +139,7 @@ h1 {
     
     display: inline-block;
     text-decoration: none;
-    color: gray;
+    color: white;
     font-family: var(--titlesFont);
 }
 
@@ -146,7 +148,7 @@ h1 {
 .pagination {
 
     text-align: center;
-    font-family: var(--police-meta);
+    font-family: var(--buttonsFont);
     font-weight: 300;
     margin: 2em;
 }
@@ -164,18 +166,17 @@ h1 {
 
 .pagination a {
 
-    color: var(--texte-sombre);
+    color: var(--navigationTextColor);
     border-radius: 0.3em;
     margin: 0 0.2em;
     padding: 0.5em;
-    background-color: var(--couleur-texte);
 }
 
 .pagination a:hover,
 .pagination .active a {
 
-    background-color: var(--vert-hover);
-    color: var(--couleur-texte);
+    background-color: var(--navigationTextBackgroundColor);
+    color: var(--navigationTextColor);
 }
 
 .pagination .disabled {
