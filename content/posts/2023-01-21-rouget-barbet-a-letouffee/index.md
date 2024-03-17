@@ -7,6 +7,4 @@ url: /rouget-barbet-a-letouffee/
 categories:
   - Dessin
 format: image
-
 ---
-Test

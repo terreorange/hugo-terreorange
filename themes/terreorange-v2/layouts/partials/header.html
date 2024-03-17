@@ -13,13 +13,13 @@
   </head>
 
   <body>
-    <h1>{{ .Site.Title }}</h1>
-    <h2>{{ $.Site.Params.description }}</h2>
-    <nav>
-    <ul class="menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-    <hr/>
-    </nav>
+    <div class="siteMain">
+      <h1 class="siteTitle"><a href="/">{{ .Site.Title }}</a></h1>
+      <h2 class="siteDescription">{{ $.Site.Params.description }}</h2>
+      <nav>
+      <ul class="menu">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      </nav>

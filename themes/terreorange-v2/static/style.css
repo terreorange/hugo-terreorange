@@ -11,6 +11,11 @@
     --couleur-texte: rgba(0, 0, 0, 0.7);
     --fond-sombre: #0d1a08;
     --texte-sombre: rgb(198, 211, 198);
+
+    --siteTitleColor: orange;                    /* Le fond du site, un beau bleu */
+    --siteBackground: blue;                    /* Le fond du site, un beau bleu */
+    --titlesFont: 'Atkinson Hyperlegible', sans-serif;     /* La police utilisée pour les titres */
+    --textsFont: serif;      /* La police utilisée pour le texte */
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -22,27 +27,118 @@ img {
 }
 
 /*--------------------------------------------------------------------------------------*/
-/* Un grille centrée dans la page, n colonnes en fonction de la place disponible */
-.articles {
-
-    margin-left: 10vw;
-	margin-right: 10vw;
+/* Le fond par défaut de la page */
+body {
+    
+    background-color: var(--siteBackground);
 }
 
-.articles .item {
-
-	display: inline;
-    margin: 0;
-    margin-top: 0vw;
-    margin-bottom: 0vw;
+/*--------------------------------------------------------------------------------------*/
+/* Le div qui contient tout */
+.siteMain {
+    
+    background-color:white;
+    margin: 5vw;
+    padding: 2vw;
+    font-family: var(--police-meta);
 }
 
-.articles .item .image {
+/*--------------------------------------------------------------------------------------*/
+/* Le titre du site, sa description */
+.siteTitle {
+    
+    margin: 0vw;
+    padding: 0vw;
+    font-weight: bold;
+    font-size: 3em;
+    color: var(--siteTitleColor);
+    font-family: var(--titlesFont);
+}
+.siteTitle a {
+    
+    color: var(--siteTitleColor);
+    text-decoration-line: none;
+    font-family: var(--titlesFont);
+}
 
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-    margin-right: 0.5vw;
-    margin-left: 0.5vw;
+.siteDescription {
+    
+    margin: 0vw;
+    padding: 0vw;
+    font-weight: normal;
+    font-size: 1em;
+    color: gray;
+    font-family: var(--titlesFont);
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Le titre des pages */
+h1 {
+    
+    font-size: 2em;
+    font-family: var(--titlesFont);
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* La liste des items (les posts) */
+.items {
+
+    background-color:white;
+}
+
+.items a {
+
+    text-decoration: none;
+}
+
+.items .item {
+
+    padding: 0vw;
+    margin-bottom: 5vw;
+    color: gray;
+}
+
+/* Le résumé */
+.items .item .itemSummary {
+
+    font-family: var(--textsFont);
+}
+/* La date */
+.items .item .itemPublishDate {
+
+    font-family: var(--textsFont);
+}
+/* Le titre */
+.items .item .itemTitle {
+
+    font-family: var(--textsFont);
+}
+
+.items .item .image {
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Le menu */
+.menu {
+    
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid grey;
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    
+    display: inline;
+    margin-right: 1em
+}
+.menu li a {
+    
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    font-family: var(--titlesFont);
 }
 
 /*--------------------------------------------------------------------------------------*/

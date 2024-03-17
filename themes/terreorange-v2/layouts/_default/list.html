@@ -6,27 +6,33 @@
 
 {{ .Content }}
 
-<div class="articles">
+<div class="items">
 
-	{{ range (.Paginator).Pages }}
-		<section class="item">
-			<a href='{{ .RelPermalink }}'>
+	{{ range .Paginator.Pages }}
+		<a href='{{ .RelPermalink }}'>
+				<div class="itemPublishDate">
+			{{ time.Format "2/1/2006" .PublishDate }}
+		</div>
+			<div class="itemTitle">
+				{{ .LinkTitle }}
+			</div>
+			<div class="item">
 				{{ with partial "getImage.html" . }}
-
+	
 					{{ $image := . }}
-    		
-					<div class="image">
-        				<img
-            				srcset="{{ $image.RelPermalink }}"
-	            			alt="{{ .Title }}"
+			
+					<div class="itemImage">
+						<img
+    						srcset="{{ $image.RelPermalink }}"
+        					alt="{{ .Title }}"
 						/>
 					</div>
-			<div class="imageTitle">
-				{{ .Title }}
-			</div>
 				{{ end }}
-	    	</a>
-		</section>
+				<div class="itemSummary">
+					{{ .Summary }}
+				</div>
+			</div>
+		</a>
 	{{ end }}
 </div>
 
