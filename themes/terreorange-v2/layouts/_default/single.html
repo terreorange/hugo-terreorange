@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 
 <div class="item">
+	<div class="itemPublishDate">
+		{{ time.Format "2/1/2006" .PublishDate }}
+	</div>
 	<div class="itemTitle">
 		{{ .LinkTitle }}
-	</div>
-	<div class="itemPublishDate">
-		{{ time.Format "2/01/2006" .PublishDate }}
 	</div>
 	{{ with partial "getImage.html" . }}
 	
