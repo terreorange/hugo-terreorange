@@ -8,4 +8,3 @@ categories:
   - Dessin
 format: image
 ---
-Test2dfg
