@@ -59,7 +59,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
-     - name: Deploy site
+      - name: Deploy site
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           protocol: ftps
