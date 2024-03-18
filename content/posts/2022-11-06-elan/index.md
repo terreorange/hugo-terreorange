@@ -1,6 +1,6 @@
 ---
 title: Élan
-author: admin
+author: jean-yves
 type: post
 date: 2022-11-06T17:05:32+00:00
 url: /elan/
@@ -9,4 +9,5 @@ categories:
 format: image
 
 ---
-![Élan](./img_0256.jpg)
+<!—more—>
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

@@ -1,6 +1,6 @@
 ---
 title: Tarte aux pommes
-author: admin
+author: jean-yves
 type: post
 date: 2022-11-20T11:16:56+00:00
 url: /tarte-aux-pommes/
@@ -9,4 +9,5 @@ categories:
 format: image
 
 ---
-![Tarte aux pommes](./IMG_0296.jpg)
+<!—more—>
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

@@ -1,13 +1,12 @@
 ---
-title: 'Rencontre #05112004'
+title: 'Rencontre à Beaubourg'
 author: admin
 type: post
 date: 2004-11-05T09:39:22+00:00
-url: /05112004/
+url: /Rencontre-a-Beaubourg/
 categories:
   - Photographie
 format: image
 
 ---
-![Rencontre #05112004](./D100_20041101_171218.jpg)
 À Beaubourg.

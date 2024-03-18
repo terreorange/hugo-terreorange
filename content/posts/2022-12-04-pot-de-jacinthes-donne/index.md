@@ -1,6 +1,6 @@
 ---
 title: Pot de jacinthes donné
-author: admin
+author: jean-yves
 type: post
 date: 2022-12-04T15:11:30+00:00
 url: /pot-de-jacinthes-donne/
@@ -9,4 +9,5 @@ categories:
 format: image
 
 ---
-![Pot de jacinthes donné](./img_0332.jpg)
+<!—more—>
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

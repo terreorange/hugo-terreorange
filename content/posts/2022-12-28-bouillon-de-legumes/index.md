@@ -1,6 +1,6 @@
 ---
 title: Bouillon de légumes
-author: admin
+author: jean-yves
 type: post
 date: 2022-12-28T15:19:49+00:00
 url: /bouillon-de-legumes/
@@ -9,4 +9,5 @@ categories:
 format: image
 
 ---
-![Bouillon de légumes](./img_0356.jpg)
+<!—more—>
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

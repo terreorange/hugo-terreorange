@@ -1,6 +1,6 @@
 ---
 title: Goûter abandonné
-author: admin
+author: jean-yves
 type: post
 date: 2022-11-26T18:30:09+00:00
 url: /gouter-abandonne/
@@ -9,4 +9,5 @@ categories:
 format: image
 
 ---
-![Goûter abandonné](./img_0310.jpg)
+<!—more—>
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

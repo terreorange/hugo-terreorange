@@ -1,6 +1,6 @@
 ---
 title: Gratin de courgettes
-author: admin
+author: jean-yves
 type: post
 date: 2022-11-22T16:43:17+00:00
 url: /gratin-de-courgettes/
@@ -9,4 +9,5 @@ categories:
 format: image
 
 ---
-![Gratin de courgettes](./img_0111.jpg)
+<!—more—>
+Dessiné sur iPad avec [Procreate](https://procreate.com/).
