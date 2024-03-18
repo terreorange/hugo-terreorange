@@ -1,5 +1,5 @@
 ---
-title: 'Portrait à deux mains #17122015'
+title: 'Portrait à deux mains'
 author: admin
 type: post
 date: 2015-12-17T19:35:22+00:00
@@ -9,4 +9,3 @@ categories:
 format: image
 
 ---
-![Portrait à deux mains #17122015](./D700_20090509_145802-10052009.jpg)

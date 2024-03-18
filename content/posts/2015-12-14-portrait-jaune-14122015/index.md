@@ -1,5 +1,5 @@
 ---
-title: 'Portrait jaune #14122015'
+title: 'Portrait jaune'
 author: admin
 type: post
 date: 2015-12-14T20:27:28+00:00
@@ -9,4 +9,3 @@ categories:
 format: image
 
 ---
-![Portrait jaune #14122015](./IMG_0216.jpg)

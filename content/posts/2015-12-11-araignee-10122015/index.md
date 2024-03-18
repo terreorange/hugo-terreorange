@@ -9,4 +9,3 @@ categories:
 format: image
 
 ---
-![Araignée #10122015](./IMG_0215.jpg)

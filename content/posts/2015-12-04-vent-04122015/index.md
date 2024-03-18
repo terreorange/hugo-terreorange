@@ -1,5 +1,5 @@
 ---
-title: 'Vent #04122015'
+title: 'Vent'
 author: admin
 type: post
 date: 2015-12-04T20:18:11+00:00
@@ -9,4 +9,3 @@ categories:
 format: image
 
 ---
-![Vent #04122015](./IMG_0211.jpg)

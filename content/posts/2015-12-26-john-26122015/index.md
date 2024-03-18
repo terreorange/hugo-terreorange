@@ -9,4 +9,3 @@ categories:
 format: image
 
 ---
-![John #26122015](./img_0273.jpg)

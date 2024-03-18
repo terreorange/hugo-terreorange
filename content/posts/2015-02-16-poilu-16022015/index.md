@@ -9,4 +9,4 @@ categories:
 format: image
 
 ---
-![Poilu #16022015](./51.jpg)
+D’après une photo d’Éric Poitevin découvert au [LaM](https://www.musee-lam.fr/fr/eric-poitevin).

@@ -1,5 +1,5 @@
 ---
-title: 'Juliette #14052013'
+title: 'Juliette au Louvre Lens'
 author: admin
 type: post
 date: 2013-05-14T08:52:34+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Juliette #14052013](./DSC_D700_09052013_160420-14052013.jpg)

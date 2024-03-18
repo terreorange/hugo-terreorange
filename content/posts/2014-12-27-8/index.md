@@ -10,4 +10,3 @@ years:
   - 2014
 
 ---
-![La salade](./Salade.jpg)

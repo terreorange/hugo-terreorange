@@ -1,5 +1,5 @@
 ---
-title: 'Bouquet #03022008'
+title: 'Bouquet'
 author: admin
 type: post
 date: 2008-02-02T15:00:09+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Bouquet #03022008](./D200_20080203_141905-1-Edit-03022008.jpg)

@@ -6,6 +6,7 @@ date: 2015-11-29T17:52:50+00:00
 url: /moi-29112015/
 categories:
   - Dessin
+  - Autoportrait
 format: image
 
 ---

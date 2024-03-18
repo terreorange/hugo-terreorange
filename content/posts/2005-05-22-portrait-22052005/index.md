@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Portrait #22052005](./D100_20050521-102631b-22052005.jpg)

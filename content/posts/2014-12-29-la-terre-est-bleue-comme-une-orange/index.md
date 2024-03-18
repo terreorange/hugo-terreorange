@@ -10,4 +10,3 @@ years:
   - 2014
 
 ---
-![La terre est bleue comme une orange](./La-terre-est-bleue-comme-une-orange.jpg)

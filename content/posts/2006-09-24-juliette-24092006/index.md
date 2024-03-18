@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Juliette #24092006](./D200_20060923_160949_DxO_rawb-24092006.jpg)

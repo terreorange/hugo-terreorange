@@ -1,5 +1,5 @@
 ---
-title: 'Poilu #14022015'
+title: 'Poilu'
 author: admin
 type: post
 date: 2015-02-14T08:10:14+00:00
@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![Poilu #14022015](./111.jpg)
+D’après une photo d’Éric Poitevin découvert au [LaM](https://www.musee-lam.fr/fr/eric-poitevin).

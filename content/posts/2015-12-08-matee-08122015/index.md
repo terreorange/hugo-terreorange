@@ -9,4 +9,3 @@ categories:
 format: image
 
 ---
-![Marée #08122015](./IMG_0213.jpg)
