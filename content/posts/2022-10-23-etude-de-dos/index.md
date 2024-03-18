@@ -7,6 +7,8 @@ url: /etude-de-dos/
 categories:
   - Dessin
   - Photographie
+years:
+  - 2022
 format: image
 
 ---

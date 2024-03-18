@@ -7,6 +7,8 @@ url: /colere/
 categories:
   - Dessin
   - Photographie
+years:
+  - 2022
 format: image
 
 ---

@@ -6,6 +6,8 @@ date: 2022-11-26T18:30:09+00:00
 url: /gouter-abandonne/
 categories:
   - Dessin
+years:
+  - 2022
 format: image
 
 ---

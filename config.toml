@@ -4,12 +4,17 @@ theme = 'terreorange-v2'
 title = "terreorange"
 paginate = 4
 
+[taxonomies]
+	category = 'categories'
+	year = 'years'
+	
 [params]
 	description = "Expériences : dessins, peintures, photographies, animations, histoires et autres textes"
 
 [author]
   name = "Jean-Yves Jourdain"
   email = "jyjourdain@terreorange.com"
+
 
 [menu]
 [[menu.main]]

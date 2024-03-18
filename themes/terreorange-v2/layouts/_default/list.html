@@ -4,6 +4,30 @@
 <h1>{{ .Title | markdownify }}</h1>
 {{ end }}
 
+
+
+
+<ul>
+  {{ range .Params.categories }}
+    <li><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+  {{ end }}
+</ul>
+<ul>
+  {{ range .Params.years }}
+    <li><a href="{{ "/years/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+  {{ end }}
+</ul>
+
+
+{{ range $key, $value := .Site.Taxonomies.years }}
+	<li><a href="/years/{{ $key | urlize  }}">{{ $key }}</a> ({{ len $value }})</li>
+{{ end }}
+{{ range $key, $value := .Site.Taxonomies.categories }}
+	<li><a href="/categories/{{ $key | urlize  }}">{{ $key }}</a> ({{ len $value }})</li>
+{{ end }}
+
+
+
 {{ .Content }}
 
 <div class="items">
