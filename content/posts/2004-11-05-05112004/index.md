@@ -5,9 +5,9 @@ type: post
 date: 2004-11-05T09:39:22+00:00
 url: /Rencontre-a-Beaubourg/
 categories:
-  - Photographie
+- Photographie
 years:
-  - 2004
+- 2004
 format: image
 
 ---

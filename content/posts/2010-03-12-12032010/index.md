@@ -8,6 +8,8 @@ categories:
   - Peinture
 tags:
   - Autoportrait
+years:
+  - 2010
 format: image
 
 ---

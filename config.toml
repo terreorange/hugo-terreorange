@@ -9,7 +9,7 @@ paginate = 4
 	year = 'years'
 	
 [params]
-	description = "Expériences : dessins, peintures, photographies, animations, histoires et autres textes"
+	description = "Expériences : "
 
 [author]
   name = "Jean-Yves Jourdain"

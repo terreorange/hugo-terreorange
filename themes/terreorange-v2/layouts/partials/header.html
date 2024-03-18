@@ -15,4 +15,8 @@
   <body>
     <div class="siteMain">
       <h1 class="siteTitle"><a href="/">{{ .Site.Title }}</a></h1>
-      <h2 class="siteDescription">{{ $.Site.Params.description }}</h2>
+      <h2 class="siteDescription">{{ $.Site.Params.description }}
+        {{ range $key, $value := .Site.Taxonomies.categories }}
+          <a href="/categories/{{ $key | urlize  }}">{{ $key }}</a> ({{ len $value }}), etc.
+        {{ end }}
+      </h2>

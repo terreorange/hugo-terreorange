@@ -6,7 +6,6 @@ date: 2022-10-25T16:03:55+00:00
 url: /colere/
 categories:
   - Dessin
-  - Photographie
 years:
   - 2022
 format: image
