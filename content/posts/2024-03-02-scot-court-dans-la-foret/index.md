@@ -9,5 +9,5 @@ categories:
 format: image
 ---
 Ivre de liberté, il court et nous le regardons.
-
+<!--more-->
 Dessiné sur iPad avec [Procreate](https://procreate.com/).
