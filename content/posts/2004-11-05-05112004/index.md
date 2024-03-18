@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-À Beaubourg.
