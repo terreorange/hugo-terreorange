@@ -9,5 +9,4 @@ categories:
 format: image
 
 ---
-<!—more—>
 Dessiné sur iPad avec [Procreate](https://procreate.com/).
