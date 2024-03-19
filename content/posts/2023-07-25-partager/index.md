@@ -1,6 +1,6 @@
 ---
 title: Partager
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-25T08:08:01+00:00
 url: /partager/

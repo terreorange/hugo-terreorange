@@ -1,6 +1,6 @@
 ---
 title: Beau profil
-author: admin
+author: jean-yves
 type: post
 date: 2023-08-06T12:16:04+00:00
 url: /beau-profil/

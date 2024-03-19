@@ -1,6 +1,6 @@
 ---
 title: Une bouée à la mer… de sable
-author: admin
+author: jean-yves
 type: post
 date: 2023-08-05T13:36:32+00:00
 url: /une-bouee-a-la-mer-de-sable/

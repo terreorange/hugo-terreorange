@@ -1,6 +1,6 @@
 ---
 title: 'À l&rsquo;année prochaine'
-author: admin
+author: jean-yves
 type: post
 date: 2020-02-25T20:12:26+00:00
 url: /a-lannee-prochaine/

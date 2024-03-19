@@ -1,5 +1,5 @@
 ---
-title: 'Rencontre à Beaubourg'
+title: 'Rencontre'
 author: jean-yves
 type: post
 date: 2004-11-05T09:39:22+00:00
@@ -11,3 +11,4 @@ years:
 format: image
 
 ---
+À Beaubourg.

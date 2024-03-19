@@ -1,6 +1,6 @@
 ---
 title: ce que l’on veut
-author: admin
+author: jean-yves
 type: post
 date: 2021-10-28T20:07:08+00:00
 url: /ce-que-lon-veut/

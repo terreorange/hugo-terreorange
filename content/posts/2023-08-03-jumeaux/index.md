@@ -1,6 +1,6 @@
 ---
 title: Jumeaux
-author: admin
+author: jean-yves
 type: post
 date: 2023-08-03T15:44:11+00:00
 url: /jumeaux/

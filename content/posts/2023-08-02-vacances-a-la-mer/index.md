@@ -1,6 +1,6 @@
 ---
 title: Vacances à la mer
-author: admin
+author: jean-yves
 type: post
 date: 2023-08-02T13:30:01+00:00
 url: /vacances-a-la-mer/

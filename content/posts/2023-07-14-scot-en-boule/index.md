@@ -1,6 +1,6 @@
 ---
 title: Scot en boule
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-14T05:03:13+00:00
 url: /scot-en-boule/

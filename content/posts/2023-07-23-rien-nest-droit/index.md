@@ -1,6 +1,6 @@
 ---
 title: Rien n’est droit
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-23T09:38:51+00:00
 url: /rien-nest-droit/

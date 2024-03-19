@@ -1,6 +1,6 @@
 ---
-title: 'Pluie d&rsquo;orage, Stella #05072015'
-author: admin
+title: 'Pluie d&rsquo;orage, Stella'
+author: jean-yves
 type: post
 date: 2015-07-05T18:46:00+00:00
 url: /pluie-dorage-stella-05072015/

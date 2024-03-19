@@ -1,6 +1,6 @@
 ---
 title: Tous assis
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-29T07:43:55+00:00
 url: /tous-assis/

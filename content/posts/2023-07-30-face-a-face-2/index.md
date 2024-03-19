@@ -1,6 +1,6 @@
 ---
 title: Face à face
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-30T06:34:17+00:00
 url: /face-a-face-2/

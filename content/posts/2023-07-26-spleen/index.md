@@ -1,6 +1,6 @@
 ---
 title: Spleen
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-26T09:27:09+00:00
 url: /spleen/

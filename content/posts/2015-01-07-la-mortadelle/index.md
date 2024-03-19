@@ -1,6 +1,6 @@
 ---
 title: La mortadelle
-author: admin
+author: jean-yves
 type: post
 date: 2015-01-07T12:38:22+00:00
 url: /la-mortadelle/

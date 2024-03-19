@@ -1,6 +1,6 @@
 ---
 title: Trouver son chemin
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-18T07:52:51+00:00
 url: /trouver-son-chemin/

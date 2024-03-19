@@ -1,6 +1,6 @@
 ---
 title: Capharnaüm organisé
-author: admin
+author: jean-yves
 type: post
 date: 2023-07-31T06:58:57+00:00
 url: /capharnaum-organise/
