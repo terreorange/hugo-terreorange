@@ -6,6 +6,8 @@ date: 2015-07-05T18:46:00+00:00
 url: /pluie-dorage-stella-05072015/
 categories:
   - Vidéo
+years:
+  - 2015
 format: image
 
 ---

@@ -1,11 +1,13 @@
 ---
-title: 'Tri postal, Lille #19102015'
+title: 'Calder, LaM, Villeneuve d&rsquo;Ascq #25062015'
 author: admin
 type: post
-date: 2015-10-20T06:51:37+00:00
-url: /tri-postal-lille-19102015/
+date: 2015-06-25T12:43:08+00:00
+url: /calder-lam-villeneuve-dascq/
 categories:
   - Vidéo
+years:
+  - 2015
 format: image
 
 ---
