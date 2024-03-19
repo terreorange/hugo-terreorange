@@ -12,7 +12,8 @@ geo_public:
   - 1
 categories:
   - Photographie
+years:
+  - 2020
 format: image
 
 ---
-![Trappe du ciel en hiver](./dsc0312.jpg)

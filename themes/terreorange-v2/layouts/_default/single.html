@@ -10,12 +10,14 @@
 	{{ with partial "getImage.html" . }}
 	
 		{{ $image := . }}
-	
-		<div class="itemImage">
-			<img
-				srcset="{{ $image.RelPermalink }}"
-				alt="{{ .Title }}"
-			/>
+		
+		<div class="itemImageBorder"> 	
+			<div class="itemImage">
+				<img
+					srcset="{{ $image.RelPermalink }}"
+					alt="{{ .Title }}"
+				/>
+			</div>
 		</div>
 	{{ end }}
 	<div class="itemContent">

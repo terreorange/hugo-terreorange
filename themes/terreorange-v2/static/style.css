@@ -13,6 +13,7 @@
     --itemBackground: white;
     --titlesFont: 'Trebuchet MS', sans-serif;
     --textsFont: 'Trebuchet MS', sans-serif;
+    --textsOnBlueColor: white;
     --buttonsFont: 'Trebuchet MS', sans-serif;
     --itemBorder: 1vw;
 }
@@ -90,8 +91,6 @@ h1 {
 }
 
 .items a {
-
-    text-decoration: none;
 }
 
 .item {
@@ -121,6 +120,10 @@ h1 {
     color: var(--itemDataColor);
     font-weight: bold;
 }
+.item > a {
+
+    text-decoration: none;
+}
 .item .itemImageBorder {
 
     margin-top: var(--itemBorder);
@@ -134,6 +137,14 @@ h1 {
 .item p {
 
     margin: 0;
+}
+.itemContent p, .itemContent p a, .itemContent h1, .itemContent ul li a {
+    
+    color: var(--itemDataColor);    
+}
+.itemContent p {
+    
+    padding-top: 1em;
 }
 .items .item .image {
 }
@@ -149,6 +160,7 @@ h1 {
     list-style: none;
     padding: 0;
     margin-top: 8vw;
+    color: var(--textsOnBlueColor);
 }
 .menu li {
     
@@ -158,8 +170,19 @@ h1 {
 .menu li a {
     
     display: inline-block;
-    color: white;
+    color: var(--textsOnBlueColor);
     font-family: var(--titlesFont);
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Licence */
+.licence {
+    
+    color: var(--textsOnBlueColor);
+}
+.licence a {
+    
+    color: var(--textsOnBlueColor);
 }
 
 /*--------------------------------------------------------------------------------------*/

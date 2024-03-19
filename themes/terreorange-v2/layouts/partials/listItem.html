@@ -1,26 +1,29 @@
-<a href='{{ .RelPermalink }}'>
-    <div class="item">
-        <div class="itemPublishDate">
-            {{ time.Format "2/1/2006" .PublishDate }}
-        </div>
+{{ $itemPageURL := .RelPermalink }}
+<div class="item">
+    <div class="itemPublishDate">
+        {{ time.Format "2/1/2006" .PublishDate }}
+    </div>
+    <a href='{{ $itemPageURL }}'>
         <div class="itemTitle">
             {{ .LinkTitle }}
         </div>
-        {{ with partial "getImage.html" . }}
+    </a>
+    {{ with partial "getImage.html" . }}
 
-            {{ $image := . }}
-    
-            <div class="itemImageBorder">
-                <div class="itemImage">
+        {{ $image := . }}
+
+        <div class="itemImageBorder">
+            <div class="itemImage">
+                <a href='{{ $itemPageURL }}'>
                     <img
                         srcset="{{ $image.RelPermalink }}"
                         alt="{{ .Title }}"
                     />
-                </div>
+                </a>
             </div>
-        {{ end }}
-        <div class="itemSummary">
-            {{ .Summary }}
         </div>
+    {{ end }}
+    <div class="itemContent">
+        {{ .Content }}
     </div>
-</a>
+</div>
