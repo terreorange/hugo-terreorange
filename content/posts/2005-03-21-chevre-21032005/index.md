@@ -1,6 +1,6 @@
 ---
-title: 'Chèvre #21032005'
-author: admin
+title: 'Chèvre'
+author: jean-yves
 type: post
 date: 2005-03-21T09:26:32+00:00
 url: /chevre-21032005/
@@ -11,3 +11,4 @@ years:
 format: image
 
 ---
+Dans l'animalerie du cirque Gruss.

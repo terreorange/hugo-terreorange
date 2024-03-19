@@ -8,32 +8,15 @@
 {{ .Content }}
 
 <div class="items">
-
-	{{ range .Paginator.Pages }}
-		<a href='{{ .RelPermalink }}'>
-			<div class="item">
-				<div class="itemPublishDate">
-					{{ time.Format "2/1/2006" .PublishDate }}
-				</div>
-				<div class="itemTitle">
-					{{ .LinkTitle }}
-				</div>
-				{{ with partial "getImage.html" . }}
-	
-					{{ $image := . }}
-			
-					<div class="itemImage">
-						<img
-    						srcset="{{ $image.RelPermalink }}"
-        					alt="{{ .Title }}"
-						/>
-					</div>
-				{{ end }}
-				<div class="itemSummary">
-					{{ .Summary }}
-				</div>
-			</div>
-		</a>
+	{{if .IsHome }}
+		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+		{{ range $paginator.Pages }}
+			{{ partial "listItem.html" . }}
+		{{ end }}
+	{{ else }}
+		{{ range .Paginator.Pages }}
+			{{ partial "listItem.html" . }}
+		{{ end }}
 	{{ end }}
 </div>
 

@@ -1,6 +1,6 @@
 ---
-title: 'Femme nue de face v2 #29102016'
-author: admin
+title: 'Femme nue de face v2'
+author: jean-yves
 type: post
 date: 2016-10-29T05:19:39+00:00
 url: /femme-nue-de-face-v2/

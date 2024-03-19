@@ -1,6 +1,6 @@
 ---
 title: Colère
-author: admin
+author: jean-yves
 type: post
 date: 2022-10-25T16:03:55+00:00
 url: /colere/
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Colère](./img_0250.jpg)

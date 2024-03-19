@@ -1,6 +1,6 @@
 ---
 title: 'Manche #04082016'
-author: admin
+author: jean-yves
 type: post
 date: 2016-08-04T13:38:08+00:00
 url: /manche-04082016/

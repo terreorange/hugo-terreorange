@@ -1,6 +1,6 @@
 ---
 title: Étude de main
-author: admin
+author: jean-yves
 type: post
 date: 2022-10-22T07:56:54+00:00
 url: /etude-de-main/
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Étude de main](./img_0245.jpg)

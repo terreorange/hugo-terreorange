@@ -1,6 +1,6 @@
 ---
 title: Étude de dos
-author: admin
+author: jean-yves
 type: post
 date: 2022-10-24T14:55:32+00:00
 url: /etude-de-dos-2/
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Étude de dos](./img_0248.jpg)

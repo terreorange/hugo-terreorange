@@ -1,6 +1,6 @@
 ---
 title: 'K. numéro 2 #11072017'
-author: admin
+author: jean-yves
 type: post
 date: 2017-07-11T09:24:55+00:00
 url: /k-numero-2-11072017/

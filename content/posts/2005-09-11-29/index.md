@@ -1,6 +1,6 @@
 ---
 title: 'Portrait #11092005'
-author: admin
+author: jean-yves
 type: post
 date: 2005-09-11T17:13:19+00:00
 url: /29/
@@ -11,3 +11,4 @@ years:
 format: image
 
 ---
+Huile.

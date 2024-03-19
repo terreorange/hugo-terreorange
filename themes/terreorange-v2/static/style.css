@@ -67,6 +67,11 @@ body {
     color: var(--siteDescriptionColor);
     font-family: var(--textsFont);
 }
+.siteDescription a {
+    
+    color: var(--siteDescriptionColor);
+    font-family: var(--titlesFont);
+}
 
 /*--------------------------------------------------------------------------------------*/
 /* Le titre des pages */
@@ -125,7 +130,7 @@ h1 {
     display: inline-block;
     width: 100%;
     text-align: left;
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     list-style: none;
     padding: 0;
     margin-top: 8vw;
@@ -133,12 +138,11 @@ h1 {
 .menu li {
     
     display: inline;
-    margin-right: 1em
+    margin-right: 0.6em
 }
 .menu li a {
     
     display: inline-block;
-    text-decoration: none;
     color: white;
     font-family: var(--titlesFont);
 }

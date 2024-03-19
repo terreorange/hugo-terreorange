@@ -1,6 +1,6 @@
 ---
 title: 'Autoportrait #15'
-author: admin
+author: jean-yves
 type: post
 date: 2022-10-15T14:26:51+00:00
 url: /autoportrait-15/
@@ -13,4 +13,3 @@ tags:
 format: image
 
 ---
-![Autoportrait #15](./img_0238.jpg)

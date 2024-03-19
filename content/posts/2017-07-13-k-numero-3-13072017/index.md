@@ -1,6 +1,6 @@
 ---
 title: 'K. numéro 3 #13072017'
-author: admin
+author: jean-yves
 type: post
 date: 2017-07-13T10:55:07+00:00
 url: /k-numero-3-13072017/

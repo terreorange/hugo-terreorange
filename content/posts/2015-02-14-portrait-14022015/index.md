@@ -1,6 +1,6 @@
 ---
 title: 'Poilu'
-author: admin
+author: jean-yves
 type: post
 date: 2015-02-14T08:10:14+00:00
 url: /portrait-14022015/

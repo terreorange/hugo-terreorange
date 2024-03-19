@@ -1,6 +1,6 @@
 ---
 title: La belle vie
-author: admin
+author: jean-yves
 type: post
 date: 2019-12-13T10:31:03+00:00
 url: /la-belle-vie/

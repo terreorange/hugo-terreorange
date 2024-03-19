@@ -1,6 +1,6 @@
 ---
-title: 'Canard #25032005'
-author: admin
+title: 'Canard'
+author: jean-yves
 type: post
 date: 2005-03-25T15:19:50+00:00
 url: /canard-25032005/

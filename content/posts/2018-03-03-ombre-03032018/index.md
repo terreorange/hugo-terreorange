@@ -1,6 +1,6 @@
 ---
 title: 'Ombre #03032018'
-author: admin
+author: jean-yves
 type: post
 date: 2018-03-03T07:48:20+00:00
 url: /ombre-03032018/

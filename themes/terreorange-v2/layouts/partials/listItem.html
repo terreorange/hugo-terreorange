@@ -1,0 +1,24 @@
+<a href='{{ .RelPermalink }}'>
+    <div class="item">
+        <div class="itemPublishDate">
+            {{ time.Format "2/1/2006" .PublishDate }}
+        </div>
+        <div class="itemTitle">
+            {{ .LinkTitle }}
+        </div>
+        {{ with partial "getImage.html" . }}
+
+            {{ $image := . }}
+    
+            <div class="itemImage">
+                <img
+                    srcset="{{ $image.RelPermalink }}"
+                    alt="{{ .Title }}"
+                />
+            </div>
+        {{ end }}
+        <div class="itemSummary">
+            {{ .Summary }}
+        </div>
+    </div>
+</a>

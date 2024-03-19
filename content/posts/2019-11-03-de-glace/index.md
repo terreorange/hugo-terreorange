@@ -1,6 +1,6 @@
 ---
 title: De glace
-author: admin
+author: jean-yves
 type: post
 date: 2019-11-03T14:44:37+00:00
 url: /de-glace/

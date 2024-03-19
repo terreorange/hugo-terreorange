@@ -1,6 +1,6 @@
 ---
 title: 'Autoportrait #6 #14082017'
-author: admin
+author: jean-yves
 type: post
 date: 2017-08-14T10:11:32+00:00
 url: /autoportrait-6-14082017/

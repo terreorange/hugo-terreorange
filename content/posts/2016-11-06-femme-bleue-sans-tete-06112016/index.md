@@ -1,6 +1,6 @@
 ---
 title: 'Femme bleue sans tête #06112016'
-author: admin
+author: jean-yves
 type: post
 date: 2016-11-06T08:16:28+00:00
 url: /femme-bleue-sans-tete-06112016/

@@ -1,6 +1,6 @@
 ---
 title: 'K. #09072017'
-author: admin
+author: jean-yves
 type: post
 date: 2017-07-09T15:02:03+00:00
 url: /k-09072017/

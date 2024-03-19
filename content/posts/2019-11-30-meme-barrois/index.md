@@ -1,6 +1,6 @@
 ---
 title: Mémé Barrois
-author: admin
+author: jean-yves
 type: post
 date: 2019-11-30T10:00:00+00:00
 url: /meme-barrois/

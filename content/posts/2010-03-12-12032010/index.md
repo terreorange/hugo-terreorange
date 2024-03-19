@@ -1,6 +1,6 @@
 ---
-title: 'Autoportrait #12032010'
-author: admin
+title: 'Autoportrait'
+author: jean-yves
 type: post
 date: 2010-03-12T09:33:28+00:00
 url: /12032010/

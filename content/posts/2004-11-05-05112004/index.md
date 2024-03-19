@@ -1,6 +1,6 @@
 ---
 title: 'Rencontre à Beaubourg'
-author: admin
+author: jean-yves
 type: post
 date: 2004-11-05T09:39:22+00:00
 url: /Rencontre-a-Beaubourg/

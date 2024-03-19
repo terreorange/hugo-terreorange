@@ -1,6 +1,6 @@
 ---
 title: Coin-coin
-author: admin
+author: jean-yves
 type: post
 date: 2019-12-06T16:30:00+00:00
 url: /coin-coin/

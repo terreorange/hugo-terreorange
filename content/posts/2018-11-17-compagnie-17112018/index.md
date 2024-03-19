@@ -1,6 +1,6 @@
 ---
 title: 'Compagnie #17112018'
-author: admin
+author: jean-yves
 type: post
 date: 2018-11-17T08:48:09+00:00
 url: /compagnie-17112018/
