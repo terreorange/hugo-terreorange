@@ -1,5 +1,5 @@
 ---
-title: 'John #26122015'
+title: 'John'
 author: jean-yves
 type: post
 date: 2015-12-26T21:05:59+00:00

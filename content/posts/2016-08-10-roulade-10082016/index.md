@@ -1,5 +1,5 @@
 ---
-title: 'Roulade #10082016'
+title: 'Roulade'
 author: jean-yves
 type: post
 date: 2016-08-10T11:48:07+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Roulade #10082016](./iPhone_30072016_113832.jpg)

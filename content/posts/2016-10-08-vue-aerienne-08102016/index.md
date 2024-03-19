@@ -1,5 +1,5 @@
 ---
-title: 'Vue aérienne #08102016'
+title: 'Vue aérienne'
 author: jean-yves
 type: post
 date: 2016-10-08T11:21:44+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Vue aérienne #08102016](./img_0491.jpg)

@@ -1,5 +1,5 @@
 ---
-title: 'Pêcheur #06072015'
+title: 'Pêcheur'
 author: jean-yves
 type: post
 date: 2015-07-06T13:19:11+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Pêcheur #06072015](./X100_05072015_170528.jpg)

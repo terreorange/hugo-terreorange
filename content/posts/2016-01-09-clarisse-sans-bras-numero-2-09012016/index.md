@@ -1,5 +1,5 @@
 ---
-title: 'Clarisse sans bras numéro 2 #09012016'
+title: 'Clarisse sans bras numéro 2'
 author: jean-yves
 type: post
 date: 2016-01-09T10:01:35+00:00

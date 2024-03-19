@@ -1,5 +1,5 @@
 ---
-title: 'Radis sur le dos #12102016'
+title: 'Radis sur le dos'
 author: jean-yves
 type: post
 date: 2016-10-12T12:13:11+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Radis sur le dos #12102016](./Radis_sur_le_dos.jpg)

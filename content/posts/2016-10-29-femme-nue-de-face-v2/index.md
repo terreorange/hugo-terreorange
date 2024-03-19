@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Femme nue de face v2 #29102016](./img_0654.jpg)

@@ -1,5 +1,5 @@
 ---
-title: 'Visage de femme #30102016'
+title: 'Visage de femme'
 author: jean-yves
 type: post
 date: 2016-10-30T08:04:26+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Visage de femme #30102016](./visage_de_femme.jpg)

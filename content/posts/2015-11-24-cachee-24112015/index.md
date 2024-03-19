@@ -1,5 +1,5 @@
 ---
-title: 'Cachée #24112015'
+title: 'Cachée'
 author: jean-yves
 type: post
 date: 2015-11-24T21:02:43+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Cachée #24112015](./IMG_0202.jpg)

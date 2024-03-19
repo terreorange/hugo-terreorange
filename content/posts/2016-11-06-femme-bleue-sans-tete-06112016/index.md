@@ -1,5 +1,5 @@
 ---
-title: 'Femme bleue sans tête #06112016'
+title: 'Femme bleue sans tête'
 author: jean-yves
 type: post
 date: 2016-11-06T08:16:28+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Femme bleue sans tête #06112016](./IMG_0696.jpg)

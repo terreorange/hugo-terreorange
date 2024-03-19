@@ -1,5 +1,5 @@
 ---
-title: 'Berck #12082016'
+title: 'Berck'
 author: jean-yves
 type: post
 date: 2016-08-12T13:16:13+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Berck #12082016](./iPhone_29072016_143147-2.jpg)

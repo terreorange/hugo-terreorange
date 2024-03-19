@@ -1,5 +1,5 @@
 ---
-title: 'Femme bleue nue #15112016'
+title: 'Femme bleue nue'
 author: jean-yves
 type: post
 date: 2016-11-15T07:16:17+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Femme bleue nue #15112016](./Femme_bleue_nue.jpg)

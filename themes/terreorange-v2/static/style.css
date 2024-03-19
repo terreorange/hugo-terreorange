@@ -14,6 +14,7 @@
     --titlesFont: 'Trebuchet MS', sans-serif;
     --textsFont: 'Trebuchet MS', sans-serif;
     --buttonsFont: 'Trebuchet MS', sans-serif;
+    --itemBorder: 1vw;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -95,7 +96,7 @@ h1 {
 
 .item {
 
-    padding: 1vw;
+    padding: var(--itemBorder);
     background-color: var(--itemBackground);
     margin-top: 8vw;
     border-radius: 1vw;
@@ -119,6 +120,20 @@ h1 {
     font-family: var(--titlesFont);
     color: var(--itemDataColor);
     font-weight: bold;
+}
+.item .itemImageBorder {
+
+    margin-top: var(--itemBorder);
+    padding: 3vw;
+    border: 1px solid black;
+}
+.itemSummary, .itemContent {
+
+    margin-top: var(--itemBorder);
+}
+.item p {
+
+    margin: 0;
 }
 .items .item .image {
 }

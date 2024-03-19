@@ -1,5 +1,5 @@
 ---
-title: 'Autoportrait #3 #17122016'
+title: 'Autoportrait #3'
 author: jean-yves
 type: post
 date: 2016-12-17T14:49:29+00:00
@@ -12,4 +12,3 @@ years:
 format: image
 
 ---
-![Autoportrait #3 #17122016](./Autoportrait_3.jpg)

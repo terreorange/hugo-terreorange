@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Jaune et rouge #17042016](./img_0362.jpg)

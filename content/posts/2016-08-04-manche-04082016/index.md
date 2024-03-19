@@ -1,5 +1,5 @@
 ---
-title: 'Manche #04082016'
+title: 'Manche'
 author: jean-yves
 type: post
 date: 2016-08-04T13:38:08+00:00
@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Manche #04082016](./IMG_2329.jpg)

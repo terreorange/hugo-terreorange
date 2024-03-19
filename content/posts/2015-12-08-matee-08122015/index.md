@@ -1,5 +1,5 @@
 ---
-title: 'Marée #08122015'
+title: 'Marée'
 author: jean-yves
 type: post
 date: 2015-12-08T06:33:38+00:00

@@ -2,7 +2,7 @@ baseURL = 'http://terreorange.com/'
 languageCode = 'fr-FR'
 theme = 'terreorange-v2'
 title = "terreorange"
-paginate = 4
+paginate = 12
 
 [taxonomies]
 	category = 'categories'
