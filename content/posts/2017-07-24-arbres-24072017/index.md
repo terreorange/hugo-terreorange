@@ -1,5 +1,5 @@
 ---
-title: 'Arbres #24072017'
+title: 'Arbres'
 author: jean-yves
 type: post
 date: 2017-07-24T08:05:36+00:00
@@ -13,6 +13,8 @@ geo_public:
   - 1
 categories:
   - Dessin
+years:
+  - 2017
 format: image
 
 ---

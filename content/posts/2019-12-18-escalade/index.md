@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Escalade](./DSC9379.jpg)

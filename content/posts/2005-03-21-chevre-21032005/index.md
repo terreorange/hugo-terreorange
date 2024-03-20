@@ -9,6 +9,6 @@ categories:
 years:
 - 2005
 format: image
-
+address: Esplanade, Lille
 ---
 Dans l'animalerie du cirque Gruss.

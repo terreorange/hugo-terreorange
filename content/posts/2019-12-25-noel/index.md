@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Noël](./dsc9392.jpg)

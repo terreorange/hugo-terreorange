@@ -4,6 +4,7 @@ author: jean-yves
 type: post
 date: 2023-11-25T08:50:07+00:00
 url: /tempete-a-merlimont/
+address: Boulevard de la Manche, Merlimont
 categories:
   - Photographie
 years:

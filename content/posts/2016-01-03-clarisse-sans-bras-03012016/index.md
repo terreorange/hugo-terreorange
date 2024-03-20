@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Clarisse sans bras #03012016](./IMG_0992.jpg)

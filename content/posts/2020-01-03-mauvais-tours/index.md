@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Mauvais tours](./dsc9603.jpg)

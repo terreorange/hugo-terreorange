@@ -8,8 +8,8 @@
     --itemPublishDateColor: GrayText;
     --itemDataColor: black;
     --navigationTextColor: white;
-    --navigationTextBackgroundColor: #4999f0;
-    --siteBackground: #4999f0;
+    --navigationTextBackgroundColor: #4999ef;
+    --siteBackground: #4999ef;
     --itemBackground: white;
     --titlesFont: 'Trebuchet MS', sans-serif;
     --textsFont: 'Trebuchet MS', sans-serif;
@@ -166,6 +166,13 @@ h1 {
     margin-top: var(--itemsFirstSeparation);
 }
 
+/* Carte de l'item s'il une adresse est indiquée */
+.itemMap {
+
+    height: 360px;
+    margin-top: 2vw;
+}
+
 /*--------------------------------------------------------------------------------------*/
 /* Le menu */
 .menu {
@@ -242,4 +249,3 @@ h1 {
 
     display: none;
 }
-

@@ -9,6 +9,7 @@ categories:
 years:
   - 2006
 format: image
+address: Forêt domaniale de Marchiennes, Marchiennes
 
 ---
-Dans la forêt de Marchiennes.
+Faisan trouvé  dans cette position, mort.

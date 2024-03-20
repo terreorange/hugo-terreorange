@@ -9,6 +9,7 @@ categories:
 years:
   - 2005
 format: image
+address: Balagne, Corse
 
 ---
 Souvenir de Corse.

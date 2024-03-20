@@ -23,6 +23,41 @@
 	<div class="itemContent">
 		{{ .Content }}
 	</div>
-</div>
+	{{ if .Params.address }}
 
+	<div id="map" class="itemMap"></div>
+	<script>
+		
+		// Je cherche la longitude et la latitude de l'adresse indiquée (voir https://stackoverflow.com/questions/15919227/get-latitude-longitude-as-per-address-given-for-leaflet)
+		var xmlhttp = new XMLHttpRequest();
+		var url = "https://nominatim.openstreetmap.org/search?format=json&limit=3&q=" + {{.Params.address }};
+		xmlhttp.onreadystatechange = function()
+		{
+			if (this.readyState == 4 && this.status == 200)
+			{
+				var myArr = JSON.parse(this.responseText);
+				if(myArr.length > 0)
+				{
+					// Je ne traite que le premier résultat
+					for(i = 0; i < 1; i++)
+					{
+						// Pour l'exemple, voir https://leafletjs.com/examples/quick-start/
+						var map = L.map('map').setView([myArr[i].lat, myArr[i].lon], 13);
+						L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+						maxZoom: 19,
+						detectRetina: true,
+						attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+						}).addTo(map);
+					}
+				}
+				
+			}
+		};
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
+
+	</script>
+	{{ end }}
+</div>
+ 
 {{ partial "footer.html" . }}

@@ -9,6 +9,7 @@ categories:
 years:
 - 2004
 format: image
+address: Centre Pompidou, Paris
 
 ---
 À Beaubourg.
