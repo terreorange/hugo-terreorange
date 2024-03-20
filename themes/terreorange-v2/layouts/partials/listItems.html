@@ -1,0 +1,14 @@
+<div class="items">
+    {{if .IsHome }}
+        {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+        {{ range $paginator.Pages }}
+            {{ partial "listItem.html" . }}
+        {{ end }}
+    {{ else }}
+        {{ range .Paginator.Pages }}
+            {{ partial "listItem.html" . }}
+        {{ end }}
+    {{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}

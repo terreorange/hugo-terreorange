@@ -1,10 +1,10 @@
+{{/* Liste des items d'une catégorie */}}
+
 {{ partial "header.html" . }}
 
-{{if not .IsHome }}
 <h1 class="itemListTitle">{{ .Title | markdownify }}</h1>
-{{ end }}
 
-{{ .Content }}
+<div class="itemContent">{{ .Params.description }}</div>
 
 {{/* Liste des items */}}
 {{ partial "listItems.html" . }}
