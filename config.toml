@@ -1,4 +1,4 @@
-baseURL = 'http://terreorange.com/'
+baseURL = 'http://hugo.terreorange.fr/'
 languageCode = 'fr-FR'
 theme = 'terreorange-v2'
 title = "terreorange"
