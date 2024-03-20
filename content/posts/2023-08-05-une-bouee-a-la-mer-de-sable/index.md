@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Boulevard de la mer, Stella-Plage
 
 ---
 Une après-midi de gros vent et cette bouée qui semble flotter sur une mer de sable.

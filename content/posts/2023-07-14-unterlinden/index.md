@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Musée Unterlinden, Colmar
 
 ---
-Dans un hall du musée Unterlinden de Colmar où se trouve l&rsquo;incroyable retable d&rsquo;Issenheim.
+Dans un hall du musée Unterlinden de Colmar où se trouve l'incroyable [retable d'Issenheim](https://fr.wikipedia.org/wiki/Retable_d%27Issenheim).

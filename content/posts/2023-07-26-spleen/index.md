@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Boulevard de la mer, Stella-Plage
 
 ---
 Photo prise le matin sur le front de mer de Stella Plage.

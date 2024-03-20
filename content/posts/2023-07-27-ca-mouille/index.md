@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Boulevard de la mer, Stella-Plage
 
 ---
 Première rencontre de notre jeune Beagle favori avec la mer : il a peur de l’écume ! Je vous rassure, cela s’est bien arrangé depuis, il saute dorénavant dans l’eau à cœur joie !
