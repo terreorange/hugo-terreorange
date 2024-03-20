@@ -12,4 +12,4 @@ years:
 format: image
 
 ---
-![Autoportrait #13](./img_0007.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

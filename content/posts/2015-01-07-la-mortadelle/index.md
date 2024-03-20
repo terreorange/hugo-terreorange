@@ -5,7 +5,7 @@ type: post
 date: 2015-01-07T12:38:22+00:00
 url: /la-mortadelle/
 categories:
-  - Attrape-moi !
+  - Attrape-moi
 years:
   - 2015
 

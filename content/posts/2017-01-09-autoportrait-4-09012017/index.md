@@ -1,5 +1,5 @@
 ---
-title: 'Autoportrait #4 #09012017'
+title: 'Autoportrait #4'
 author: jean-yves
 type: post
 date: 2017-01-09T19:21:17+00:00
@@ -12,4 +12,4 @@ years:
 format: image
 
 ---
-![Autoportrait #4 #09012017](./Autoportrait_4.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

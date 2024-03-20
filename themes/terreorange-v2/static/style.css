@@ -16,6 +16,8 @@
     --textsOnBlueColor: white;
     --buttonsFont: 'Trebuchet MS', sans-serif;
     --itemBorder: 1vw;
+    --itemsSeparation: 5vw;
+    --itemsFirstSeparation: 5vw;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -97,8 +99,12 @@ h1 {
 
     padding: var(--itemBorder);
     background-color: var(--itemBackground);
-    margin-top: 8vw;
+    margin-top: var(--itemsSeparation);
     border-radius: 1vw;
+}
+.items .item:first-child {
+    
+    margin-top: var(--itemsFirstSeparation);
 }
 
 /* Le résumé */
@@ -147,6 +153,12 @@ h1 {
     padding-top: 1em;
 }
 .items .item .image {
+}
+
+/* Titre quand la liste en compte un */
+.itemListTitle {
+   
+    margin-top: var(--itemsFirstSeparation);
 }
 
 /*--------------------------------------------------------------------------------------*/

@@ -1,5 +1,5 @@
 ---
-title: 'Portrait #11092005'
+title: 'Portrait'
 author: jean-yves
 type: post
 date: 2005-09-11T17:13:19+00:00
