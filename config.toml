@@ -3,6 +3,7 @@ languageCode = 'fr-FR'
 theme = 'terreorange-v2'
 title = "terreorange"
 paginate = 12
+timeout= 300
 
 [taxonomies]
 	category = 'categories'
