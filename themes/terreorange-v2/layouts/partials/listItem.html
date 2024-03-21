@@ -11,7 +11,10 @@
     {{ with partial "getImage.html" . }}
 
         {{ $image := . }}
-
+        {{ if strings.Contains $image ".jpg" }}
+            {{ $image := $image.Process "resize 1280x q70" }}
+        {{ end }}
+        
         <div class="itemImageBorder">
             <div class="itemImage">
                 <a href='{{ $itemPageURL }}'>
