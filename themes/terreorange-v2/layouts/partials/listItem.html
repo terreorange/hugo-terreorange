@@ -13,7 +13,7 @@
         {{ $image := . }}
         
         {{ if strings.Contains $image ".jpg" }}
-            {{ $image := $image.Process "resize 1280x" }}
+            {{ $image := $image.Process "resize 1280x Lanczos" }}
         {{ end }}
         
         <div class="itemImageBorder">
