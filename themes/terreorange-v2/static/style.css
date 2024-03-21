@@ -11,10 +11,8 @@
     --navigationTextBackgroundColor: #4999ef;
     --siteBackground: #4999ef;
     --itemBackground: white;
-    --titlesFont: 'Trebuchet MS', sans-serif;
-    --textsFont: 'Trebuchet MS', sans-serif;
     --textsOnBlueColor: white;
-    --buttonsFont: 'Trebuchet MS', sans-serif;
+    --buttonsFont: 'turnip', serif;
     --itemBorder: 1vw;
     --itemsSeparation: 5vw;
     --itemsFirstSeparation: 5vw;
@@ -42,7 +40,7 @@ body {
     margin: 5vw;
     margin: auto;
     padding: 2vw;
-    font-family: var(--textsFont);
+    font-family: 'turnip', serif;
     max-width: 1280px;
 }
 
@@ -52,31 +50,36 @@ body {
     
     margin: 0vw;
     padding: 0vw;
-    font-weight: bold;
     font-size: 3em;
     color: var(--siteTitleColor);
-    font-family: var(--titlesFont);
+    font-family: "input-serif-narrow";
+    font-weight: 800;
+    font-style: italic;
 }
 .siteTitle a {
     
     color: var(--siteTitleColor);
     text-decoration-line: none;
-    font-family: var(--titlesFont);
 }
 
 .siteDescription {
     
     margin: 0vw;
     padding: 0vw;
-    font-weight: normal;
     font-size: 1em;
     color: var(--siteDescriptionColor);
-    font-family: var(--textsFont);
+    /* Input Serif Thin */
+    font-family: "input-serif-narrow", serif;
+    font-weight: 100;
+    font-style: normal;
 }
 .siteDescription a {
     
     color: var(--siteDescriptionColor);
-    font-family: var(--titlesFont);
+    /* font-family: var(--titlesFont); */
+    font-family: "input-serif-narrow", serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -84,7 +87,7 @@ body {
 h1 {
     
     font-size: 2em;
-    font-family: var(--titlesFont);
+    font-family: "input-serif-narrow";
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -112,21 +115,26 @@ h1 {
 /* Le résumé */
 .item .itemSummary {
 
-    font-family: var(--textsFont);
+    /*font-family: var(--textsFont);*/
     color: var(--itemDataColor);
 }
 /* La date */
 .item .itemPublishDate {
 
-    font-family: var(--textsFont);
+    /* font-family: var(--textsFont); */
     color: var(--itemPublishDateColor);
+    font-family: "input-serif-narrow", serif;
+    font-weight: 100;
+    font-style: normal;
 }
 /* Le titre */
 .item .itemTitle {
 
-    font-family: var(--titlesFont);
+    /* font-family: var(--titlesFont); */
     color: var(--itemDataColor);
-    font-weight: bold;
+    font-family: "input-serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .item > a {
 
@@ -136,11 +144,15 @@ h1 {
 
     margin-top: var(--itemBorder);
     padding: 3vw;
-    border: 1px solid black;
+    border: 0.5px solid black;
 }
 .itemSummary, .itemContent {
 
     margin-top: var(--itemBorder);
+    font-family: "input-serif-narrow", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
 }
 .item p {
 
@@ -197,7 +209,7 @@ h1 {
     
     display: inline-block;
     color: var(--textsOnBlueColor);
-    font-family: var(--titlesFont);
+    font-family: "input-serif-narrow";
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -205,6 +217,9 @@ h1 {
 .licence {
     
     color: var(--textsOnBlueColor);
+    font-family: "input-serif-narrow", serif;
+    font-weight: 100;
+    font-style: normal;
 }
 .licence a {
     
@@ -216,9 +231,10 @@ h1 {
 .pagination {
 
     text-align: center;
-    font-family: var(--buttonsFont);
-    font-weight: 300;
     margin: 2em;
+    font-family: "input-serif-narrow", serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .pagination ul {
