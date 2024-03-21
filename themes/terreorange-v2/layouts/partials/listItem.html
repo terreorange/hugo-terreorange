@@ -11,8 +11,9 @@
     {{ with partial "getImage.html" . }}
 
         {{ $image := . }}
+        
         {{ if strings.Contains $image ".jpg" }}
-            {{ $image := $image.Process "resize 1280x q70" }}
+            {{ $image := $image.Process "resize 1280x" }}
         {{ end }}
         
         <div class="itemImageBorder">
