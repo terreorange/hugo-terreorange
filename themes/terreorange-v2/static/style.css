@@ -13,9 +13,12 @@
     --itemBackground: white;
     --textsOnBlueColor: white;
     --buttonsFont: 'turnip', serif;
-    --itemBorder: 1vw;
-    --itemsSeparation: 5vw;
-    --itemsFirstSeparation: 5vw;
+    --itemBorder: 1vh;
+    --itemsSeparation: 5vh;
+    --itemsFirstSeparation: 5vh;
+    --menuFont: normal 100 1em input-serif-narrow;
+    --licenceFont: normal 100 1em input-serif-narrow;
+    --siteTitleFont: italic 800 3em input-serif-narrow; /* Je ne parviens pas à appliquer cette valeur ? */
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -37,7 +40,6 @@ body {
 /* Le div qui contient tout */
 .siteMain {
     
-    margin: 5vw;
     margin: auto;
     padding: 2vw;
     font-family: 'turnip', serif;
@@ -50,11 +52,11 @@ body {
     
     margin: 0vw;
     padding: 0vw;
-    font-size: 3em;
     color: var(--siteTitleColor);
     font-family: "input-serif-narrow";
     font-weight: 800;
     font-style: italic;
+    font-size: 3em;
 }
 .siteTitle a {
     
@@ -178,6 +180,11 @@ h1 {
 .itemListTitle {
    
     margin-top: var(--itemsFirstSeparation);
+    margin-bottom: 0;
+}
+
+/* La description de la page qui suit le titre (pour les taxonomies) */
+.itemListTitle + .itemContent {
 }
 
 /* Carte de l'item s'il une adresse est indiquée */
@@ -197,8 +204,9 @@ h1 {
     border-top: 1px solid white;
     list-style: none;
     padding: 0;
-    margin-top: 8vw;
+    margin-top: 3vw;
     color: var(--textsOnBlueColor);
+    font: var(--menuFont);
 }
 .menu li {
     
@@ -209,7 +217,7 @@ h1 {
     
     display: inline-block;
     color: var(--textsOnBlueColor);
-    font-family: "input-serif-narrow";
+    font: var(--menuFont);
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -217,9 +225,7 @@ h1 {
 .licence {
     
     color: var(--textsOnBlueColor);
-    font-family: "input-serif-narrow", serif;
-    font-weight: 100;
-    font-style: normal;
+    font: var(--licenceFont);
 }
 .licence a {
     
@@ -231,7 +237,6 @@ h1 {
 .pagination {
 
     text-align: center;
-    margin: 2em;
     font-family: "input-serif-narrow", serif;
     font-weight: 100;
     font-style: normal;
@@ -251,9 +256,6 @@ h1 {
 .pagination a {
 
     color: var(--navigationTextColor);
-    border-radius: 0.3em;
-    margin: 0 0.2em;
-    padding: 0.5em;
 }
 
 .pagination a:hover,
