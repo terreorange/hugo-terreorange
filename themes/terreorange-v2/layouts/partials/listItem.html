@@ -16,15 +16,17 @@
             {{ $image := $image.Process "resize 1280x Lanczos" }}
         {{ end }}
         
-        <div class="itemImageBorder">
-            <div class="itemImage">
-                <a href='{{ $itemPageURL }}'>
-                    <img
-                        srcset="{{ $image.RelPermalink }}"
-                        alt="{{ .Title }}"
-                    />
-                </a>
-            </div>
+        {{/* J'utilise la couleur la plus employée dans l'image pour le fond de ma bordure */}}
+        {{ $colors := $image.Colors }}
+        {{ $color := index ($colors) 0 }}
+        
+        <div class="itemImageBorder" style='background-color:{{ $color }};'> 	
+            <a href='{{ $itemPageURL }}'>
+                <img class="itemImage"
+                    srcset="{{ $image.RelPermalink }}"
+                    alt="{{ .Title }}"
+                />
+            </a>
         </div>
     {{ end }}
     <div class="itemContent">

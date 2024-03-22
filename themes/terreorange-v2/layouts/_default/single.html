@@ -14,13 +14,15 @@
 			{{ $image := $image.Process "resize 1280x Lanczos" }}
 		{{ end }}
 		
-		<div class="itemImageBorder"> 	
-			<div class="itemImage">
-				<img
-					srcset="{{ $image.RelPermalink }}"
-					alt="{{ .Title }}"
-				/>
-			</div>
+		{{/* J'utilise la couleur la plus employée dans l'image pour le fond de ma bordure */}}
+		{{ $colors := $image.Colors }}
+		{{ $color := index ($colors) 0 }}
+		
+		<div class="itemImageBorder" style='background-color:{{ $color }};'> 	
+			<img class="itemImage"
+				srcset="{{ $image.RelPermalink }}"
+				alt="{{ .Title }}"
+			/>
 		</div>
 	{{ end }}
 	<div class="itemContent">
