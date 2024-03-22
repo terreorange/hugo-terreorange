@@ -10,18 +10,8 @@
 	{{ with partial "getImage.html" . }}
 	
 		{{ $image := . }}
+		{{ partial "itemImage.html" (dict "image" $image "itemPageURL" "") }}
 
-		{{/* J'utilise la couleur la plus employée dans l'image pour le fond de ma bordure */}}
-		{{ $colors := $image.Colors }}
-		{{ $color := index ($colors) 0 }}
-		
-		<div class="itemImageBorder" style='background-color:{{ $color }};'>
-			
-			<img class="itemImage"
-				srcset="{{ $image.RelPermalink }}"
-				alt="{{ .Title }}"
-			/>
-		</div>
 	{{ end }}
 	<div class="itemContent">
 		{{ .Content }}

@@ -1,0 +1,23 @@
+{{ $image := .image}}
+{{/* $image.RelPermalink */}}
+
+{{/* J'utilise la couleur la plus employée dans l'image pour le fond de ma bordure */}}
+{{ $colors := $image.Colors }}
+{{ $color := index ($colors) 0 }}
+
+{{/* Si itemPageURL est défini, j'ajoute un lien */}}
+<div class="itemImageBorder" style='background-color:{{ $color }};'>
+    {{ if (isset . "itemPageURL") }}
+        <a href='{{ .itemPageURL }}'>
+            <img class="itemImage"
+                srcset="{{ $image.RelPermalink }}"
+                alt="{{ .Title }}"
+            />
+        </a>
+    {{ else }}
+        <img class="itemImage"
+            srcset="{{ $image.RelPermalink }}"
+            alt="{{ .Title }}"
+        />
+    {{ end }}
+</div>
