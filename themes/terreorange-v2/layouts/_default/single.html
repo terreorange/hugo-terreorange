@@ -10,15 +10,13 @@
 	{{ with partial "getImage.html" . }}
 	
 		{{ $image := . }}
-		{{ if strings.Contains $image ".jpg" }}
-			{{ $image := $image.Process "resize 1280x Lanczos" }}
-		{{ end }}
-		
+
 		{{/* J'utilise la couleur la plus employée dans l'image pour le fond de ma bordure */}}
 		{{ $colors := $image.Colors }}
 		{{ $color := index ($colors) 0 }}
 		
-		<div class="itemImageBorder" style='background-color:{{ $color }};'> 	
+		<div class="itemImageBorder" style='background-color:{{ $color }};'>
+			
 			<img class="itemImage"
 				srcset="{{ $image.RelPermalink }}"
 				alt="{{ .Title }}"
@@ -28,6 +26,8 @@
 	<div class="itemContent">
 		{{ .Content }}
 	</div>
+	
+	{{/* S'il y a une adresse, j'affiche une carte */}} 
 	{{ if .Params.address }}
 
 	<div id="map" class="itemMap"></div>

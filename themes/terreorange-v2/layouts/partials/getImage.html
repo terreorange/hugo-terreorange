@@ -1,3 +1,4 @@
+{{/* Je cherche l'image associée au post */}}
 {{ $image := newScratch }}
 {{ if .Params.image }}
     {{ $image.Set "image" (.Resources.GetMatch .Params.image) }}
@@ -7,4 +8,13 @@
     {{ end }}
 {{ end }}
 
-{{ return $image.Get "image" }}
+{{/* Je redimensionne l'image le cas échéant */}}
+{{ $highResImage := $image.Get "image" }}
+{{ if or (strings.Contains $highResImage ".jpg") (strings.Contains $highResImage ".jpeg") }}
+    {{ $image.Set "resizedImage" ($highResImage.Process "resize 1280x Lanczos") }}
+{{ else }}
+    {{ $image.Set "resizedImage" $highResImage }}
+{{ end }}
+
+{{/* R */}}
+{{ return $image.Get "resizedImage" }}

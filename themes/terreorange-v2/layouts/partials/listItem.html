@@ -11,10 +11,7 @@
     {{ with partial "getImage.html" . }}
 
         {{ $image := . }}
-        
-        {{ if strings.Contains $image ".jpg" }}
-            {{ $image := $image.Process "resize 1280x Lanczos" }}
-        {{ end }}
+        {{/* $image.RelPermalink */}}
         
         {{/* J'utilise la couleur la plus employée dans l'image pour le fond de ma bordure */}}
         {{ $colors := $image.Colors }}
