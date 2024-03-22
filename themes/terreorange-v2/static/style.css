@@ -243,6 +243,10 @@ h1 {
     font-weight: 100;
     font-style: normal;
 }
+.paginationPreviousNext {
+
+    margin-top: 2vh;
+}
 
 .pagination ul {
 
