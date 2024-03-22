@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![Vert de rage. Rage de trop ? #melenchon #22102018](./img_0127.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

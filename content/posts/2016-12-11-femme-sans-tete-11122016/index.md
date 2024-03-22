@@ -1,5 +1,5 @@
 ---
-title: 'Femme sans tête #11122016'
+title: 'Femme sans tête'
 author: jean-yves
 type: post
 date: 2016-12-11T17:21:27+00:00
@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![Femme sans tête #11122016](./Femme_sans_tete.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

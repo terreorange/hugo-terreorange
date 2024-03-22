@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![La source](./img_0086.jpg)

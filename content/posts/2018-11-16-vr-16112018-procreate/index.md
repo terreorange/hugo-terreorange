@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![VR #16112018 #procreate](./img_0009-1.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![14](./img_0091.jpg)

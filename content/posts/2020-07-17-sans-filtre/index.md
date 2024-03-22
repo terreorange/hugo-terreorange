@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Sans filtre](./img_0077.jpg)

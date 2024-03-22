@@ -1,5 +1,5 @@
 ---
-title: 'Dans l&rsquo;herbe #12062016'
+title: 'Dans l&rsquo;herbe'
 author: jean-yves
 type: post
 date: 2016-06-12T14:48:55+00:00
@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![Dans l&rsquo;herbe #12062016](./img_0406.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

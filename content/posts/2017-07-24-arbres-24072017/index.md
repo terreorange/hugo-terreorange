@@ -18,4 +18,4 @@ years:
 format: image
 
 ---
-![Arbres #24072017](./IMG_0994.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

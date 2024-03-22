@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![L’amateur de couleuvres #philippe #couleuvres #10102018](./img_0125.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

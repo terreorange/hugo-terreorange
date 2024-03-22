@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![Hugo #13012019](./img_0051.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

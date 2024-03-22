@@ -9,4 +9,4 @@ categories:
 format: image
 
 ---
-![Femme nue de toutes les couleurs #21022017](./Femme_nue_de_toutes_les_couleurs.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

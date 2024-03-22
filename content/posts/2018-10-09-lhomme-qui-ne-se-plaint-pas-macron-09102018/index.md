@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![L’homme qui ne se plaint pas #macron #09102018](./img_0123.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

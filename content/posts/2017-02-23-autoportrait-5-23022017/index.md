@@ -14,4 +14,4 @@ tags:
 format: image
 
 ---
-![Autoportrait #5 #23022017](./Autoportrait_4.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

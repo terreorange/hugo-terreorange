@@ -9,6 +9,6 @@ categories:
 years:
   - 2008
 format: image
+address: Bray-Dunes
 
 ---
-À Bray-Dunes.

@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![Mère et fille #16042017](./Mere_et_fille.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

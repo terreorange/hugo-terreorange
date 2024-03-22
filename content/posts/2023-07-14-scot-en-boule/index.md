@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Lille
 
 ---
 C&rsquo;est la fin de journée, Scot se repose enfin.

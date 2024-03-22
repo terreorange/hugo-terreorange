@@ -12,4 +12,4 @@ years:
 format: image
 
 ---
-![K. #09072017](./IMG_0977.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

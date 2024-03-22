@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Stella Plage
 
 ---
 Rien à voir avec Schwarzy et De Vito dans [Jumeaux](https://www.themoviedb.org/movie/9493-twins), mais je trouve que l’on peut jouer ici au jeu des 7 différences, non ? #photographie #photography #cheval #horse #jumeaux #twins

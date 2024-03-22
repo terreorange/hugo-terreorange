@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Duel #20032019](./img_0082.jpg)

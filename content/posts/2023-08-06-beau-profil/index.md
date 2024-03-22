@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Stella Plage
 
 ---
 Juste un cheval qui me montre son beau profil, son plus beau ?

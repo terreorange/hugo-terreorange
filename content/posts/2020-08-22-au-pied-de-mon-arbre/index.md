@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Au pied de mon arbre](./img_0092.jpg)

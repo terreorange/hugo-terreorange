@@ -13,4 +13,4 @@ years:
 format: image
 
 ---
-![Autoportrait #6 #14082017](./Autoportrait_6.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

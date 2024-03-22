@@ -9,6 +9,6 @@ categories:
 years:
   - 2020
 format: image
+address: Le Touquet
 
 ---
-![Le fantôme de la plage](./img_0110.jpg)
