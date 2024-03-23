@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Merlimont #01082018](./img_0055.jpg)

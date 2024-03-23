@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Stella-Plage
 
 ---
 Une rencontre lors de la promenade quotidienne de notre jeune Beagle. Que regarde le cheval ? Nous ou le chien ?

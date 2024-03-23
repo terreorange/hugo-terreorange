@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Manhattan](./img_0095.jpg)

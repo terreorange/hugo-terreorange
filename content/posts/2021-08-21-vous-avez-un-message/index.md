@@ -9,5 +9,6 @@ categories:
 years:
   - 2021
 format: image
+address: Boulevard de la mer, Stella Plage
 
 ---

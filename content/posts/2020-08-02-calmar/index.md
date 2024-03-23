@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Calmar](./img_0082.jpg)

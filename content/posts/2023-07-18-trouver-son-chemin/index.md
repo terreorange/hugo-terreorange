@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Stella-Plage
 
 ---
 Découvert en me baladant dans les dunes de la côte d’Opale.

@@ -55,4 +55,18 @@
 	{{ end }}
 </div>
 
+{{/* Aller à la page suivante ou précédent, mais cela ne semble pas fonctionner quand on est dans une taxonomie */}} 
+<div class="pagination">
+<div class="paginationPreviousNext">
+{{ with .Next }}
+  <a href="{{ .RelPermalink }}">«</a>
+{{ end }}
+
+{{ with .Prev }}
+  <a href="{{ .RelPermalink }}">»</a>
+{{ end }}
+</div>
+</div>
+
+{{/* Pied de page */}} 
 {{ partial "footer.html" . }}

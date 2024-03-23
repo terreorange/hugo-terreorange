@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Ombre #03032018](./img_0009.jpg)

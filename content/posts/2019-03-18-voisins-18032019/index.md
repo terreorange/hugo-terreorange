@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Voisins #18032019](./dsc0659.jpg)

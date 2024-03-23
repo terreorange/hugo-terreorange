@@ -11,4 +11,4 @@ years:
 format: image
 
 ---
-![Femme fière](./img_0008.jpg)
+Dessiné sur iPad avec [Procreate](https://procreate.com/).

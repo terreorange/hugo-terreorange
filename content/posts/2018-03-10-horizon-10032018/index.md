@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Horizon #10032018](./apc_0857.jpg)

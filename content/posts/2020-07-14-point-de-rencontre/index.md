@@ -9,6 +9,7 @@ categories:
 years:
   - 2020
 format: image
+address: Le Touquet
 
 ---
 Au Touquet.

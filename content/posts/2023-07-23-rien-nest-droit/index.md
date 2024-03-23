@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Stella-Plage
 
 ---
 C’était le moment de boire un coup. Contrairement aux lignes de cette photo, je suis sorti en marchant droit.

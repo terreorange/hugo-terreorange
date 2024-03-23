@@ -9,5 +9,6 @@ categories:
 years:
   - 2022
 format: image
+address: Vosges
 
 ---

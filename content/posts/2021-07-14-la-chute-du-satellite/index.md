@@ -9,5 +9,7 @@ categories:
 years:
   - 2021
 format: image
+address: LAM, Villeneuve d'Ascq
 
 ---
+Au [LaM](https://www.musee-lam.fr/fr).

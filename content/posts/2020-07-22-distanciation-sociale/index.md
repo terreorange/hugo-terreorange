@@ -11,4 +11,3 @@ years:
 format: image
 
 ---
-![Distanciation sociale](./img_0078.jpg)

@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Stella-Plage
 
 ---
 Grosse fatigue après la balade du matin.

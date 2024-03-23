@@ -9,6 +9,7 @@ categories:
 years:
   - 2023
 format: image
+address: Stella-Plage
 
 ---
 Deux papillons partagent le butin : piéride du chou, citron ? La beauté de la nature à mes pieds.
