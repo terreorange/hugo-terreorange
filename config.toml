@@ -11,11 +11,9 @@ timeout= 300
 	
 [params]
 	description = "Expériences : "
-
-[author]
-  name = "Jean-Yves Jourdain"
-  email = "jyjourdain@terreorange.com"
-
+    [params.contact]
+      name = "Jean-Yves Jourdain"
+      email = "jyjourdain@terreorange.com"
 
 [menu]
 [[menu.main]]
