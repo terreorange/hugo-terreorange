@@ -8,11 +8,14 @@ categories:
   - Poésie
 years:
   - 2021
-
+summary: |
+  le monde n'est plus suffisant qu'on en invente des virtuels
+  nous consommons notre monde qu'il s'épuise  
+  
 ---
-le monde n&rsquo;est plus suffisant qu&rsquo;on en invente des virtuels  
-nous consommons notre monde qu&rsquo;il s&rsquo;épuise  
-les mondes virtuels nous donnent ce que l&rsquo;on veut  
-ce que l&rsquo;on veut ce que l&rsquo;on veut c&rsquo;est ennuyeux  
+le monde n'est plus suffisant qu'on en invente des virtuels  
+nous consommons notre monde qu'il s'épuise  
+les mondes virtuels nous donnent ce que l'on veut  
+ce que l'on veut ce que l'on veut c'est ennuyeux  
 comment était-ce avant  
 était-ce mieux

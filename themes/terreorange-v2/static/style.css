@@ -164,6 +164,12 @@ h1 {
     
     color: var(--itemDataColor);    
 }
+.lirelasuite a {
+    
+    color: var(--itemDataColor);    
+    margin-top: var(--itemBorder);
+    font-family: "input-serif-narrow", serif;
+}
 .itemContent h1 {
     
     margin-top: 1em;

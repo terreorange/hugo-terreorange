@@ -9,9 +9,11 @@ categories:
 years:
   - 2019
 format: image
+summary: |
+  J’ai croisé un détenu menotté tenu par des policiers. Une infirmière dit : « Il y a beaucoup de prisonniers aujourd'hui, ils simulent, dans l’espoir de passer Noël à l’hôpital plutôt qu’en cellule. »
 
 ---
-J’ai croisé un détenu menotté tenu par des policiers. Une infirmière dit : «&nbsp;Il y a beaucoup de prisonniers aujourd&rsquo;hui, ils simulent, dans l’espoir de passer Noël à l’hôpital plutôt qu’en cellule.&nbsp;»
+J’ai croisé un détenu menotté tenu par des policiers. Une infirmière dit : « Il y a beaucoup de prisonniers aujourd'hui, ils simulent, dans l’espoir de passer Noël à l’hôpital plutôt qu’en cellule. »
 
 Des pompiers parlent entre eux, la main sur le lit sur lequel est la personne qu’ils ont amenée.  
 — À qui est la voiture qui bloque l’entrée ? crie quelqu’un !  
@@ -21,7 +23,7 @@ L’attente, face au ballet du personnel, médecins, infirmières, brancardiers,
 
 Une famille est là, deux parents et trois jeunes enfants dont un bébé. Ils sont tous venus pour lui.
 
-«&nbsp;Les douleurs dentaires&nbsp;!&nbsp;» lance une infirmière à la cantonade.
+« Les douleurs dentaires ! » lance une infirmière à la cantonade.
 
 Des lits. Un vieux monsieur est allongé. Il a la bouche ouverte — Francis Bacon — , la tête en arrière, il respire très mal, il s’étrangle. Peut-être sa petite fille, elle a le visage fermé. Deux hommes d’âge mûr sont là aussi, les fils, certainement. Ils sont calmes tous les trois, debout, silencieux, résignés. Une voix féminine demande leur nom de famille. Un des fils pousse lui-même le lit qu’il sait manipuler, l’habitude&#8230;
 
@@ -33,6 +35,6 @@ Nous disons au revoir au médecin :
 
 ## Notes {.wp-block-heading}
 
-  * Pétition «&nbsp;Il faut un plan d&rsquo;urgence pour sauver l&rsquo;hôpital public !&nbsp;»&nbsp; sur [change.org][1].
+  * Pétition « Il faut un plan d'urgence pour sauver l'hôpital public ! »  sur [change.org][1].
 
  [1]: https://www.change.org/p/il-faut-un-plan-d-urgence-pour-sauver-l-h%C3%B4pital-public

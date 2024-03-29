@@ -16,6 +16,11 @@
         
     {{ end }}
     <div class="itemContent">
-        {{ .Content }}
+        {{ .Summary }}
     </div>
+    
+   <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+   <div class="lirelasuite">
+     <a href="{{ .RelPermalink }}">Lire la suite…</a>
+   </div>
 </div>

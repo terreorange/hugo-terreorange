@@ -7,12 +7,18 @@
 	<div class="itemTitle">
 		{{ .LinkTitle }}
 	</div>
+	
+	{{/* Je n'affiche pas l'image du post si j'affiche un article, soit il y aura une image dans l'article soit il n'y en aura pas */}} 
+	{{ if in .Params.categories "C'est technique" }}
+	{{ else }}
 	{{ with partial "getImage.html" . }}
 	
 		{{ $image := . }}
 		{{ partial "itemImage.html" (dict "image" $image "itemPageURL" "") }}
-
+	
 	{{ end }}
+	{{ end }}
+
 	<div class="itemContent">
 		{{ .Content }}
 	</div>
