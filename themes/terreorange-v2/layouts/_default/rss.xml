@@ -58,13 +58,26 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
+    
+    
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | transform.XMLEscape | safeHTML }}</description>
+      <description>{{ .Content | transform.XMLEscape | safeHTML }}
+
+      {{ if in .Params.categories "C'est technique" }}
+      {{ else }}
+        {{ with partial "getImage.html" . }}
+          {{ $image := . }}
+          {{ printf "<img src='%s'/>" $image.RelPermalink | transform.XMLEscape | safeHTML }}
+        {{ end }}
+      {{ end }}
+
+
+      </description>
     </item>
     {{- end }}
   </channel>
