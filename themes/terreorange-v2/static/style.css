@@ -234,6 +234,7 @@ h1 {
     
     color: var(--textsOnBlueColor);
     font: var(--licenceFont);
+    margin-top: 0.5em;
 }
 .licence a {
     
