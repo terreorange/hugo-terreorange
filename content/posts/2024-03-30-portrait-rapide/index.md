@@ -1,17 +1,15 @@
 ---
-title: "Portrait rapide"
+title: "Sans titre"
 author: jean-yves
 type: post
-date: 2024-03-30
-url: /portrait-rapide/
+date: 2024-05-19
+url: /sans-titre/
 categories:
 - Dessin
 years:
 - 2024
 format: image
 ---
-Curieusement fait rapidement.
-<!--more-->
 Dessiné sur iPad avec [Procreate][1]. Modèle achété sur [Art Models][2].
 
 [1]:	https://procreate.com/
