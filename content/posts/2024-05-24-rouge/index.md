@@ -2,7 +2,7 @@
 title: "Rouge"
 author: jean-yves
 type: post
-date: 2024-04-24T20:47:36+00:00
+date: 2024-05-24
 url: /rouge/
 categories:
 - Dessin

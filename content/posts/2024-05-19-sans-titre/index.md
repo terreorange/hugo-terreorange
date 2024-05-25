@@ -2,7 +2,7 @@
 title: "Courbures factices"
 author: jean-yves
 type: post
-date: 2024-05-19T20:47:36+00:00
+date: 2024-05-19
 url: /courbures-factices/
 categories:
 - Dessin
