@@ -9,5 +9,6 @@ categories:
 years:
 - 2024
 format: image
+address: rue Pierre Mauroy, Lille
 ---
-Dans l'église Saint Maurice du centre de Lille, en allant au cinéma. Une belle lumière était au rendez-vous.
+Dans l'église Saint-Maurice du centre de Lille, en allant au cinéma. Une belle lumière était au rendez-vous.
