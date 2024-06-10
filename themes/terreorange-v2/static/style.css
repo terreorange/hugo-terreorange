@@ -24,7 +24,7 @@
 /*--------------------------------------------------------------------------------------*/
 img {
 
-	max-width: 100%;
+    max-width: 100%;
     height: auto;
     width: auto;
 }
@@ -343,6 +343,18 @@ code {
 .licence a {
     
     color: var(--textsOnBlueColor);
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Version */
+.siteVersion {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+    font-family: "input-serif-narrow", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--navigationTextColor);
 }
 
 /*--------------------------------------------------------------------------------------*/
