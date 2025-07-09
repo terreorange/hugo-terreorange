@@ -9,6 +9,6 @@ categories:
 years:
 - 2025
 format: image
-address: Berck
+address: rue du grand hotel, Berck
 ---
 Sur le front de mer de Berck.
