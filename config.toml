@@ -2,7 +2,7 @@ baseURL = 'https://terreorange.com/'
 languageCode = 'fr-FR'
 theme = 'terreorange-v2'
 title = "terreorange"
-paginate = 12
+#paginate = 12
 timeout= 300
 
 [taxonomies]
