@@ -63,7 +63,7 @@ body {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     .siteMain {
-        max-width: 70vh;
+        max-width: calc( 100vh * 10 / 15 );
         min-width: 480px;
     }
 }
@@ -71,7 +71,7 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .siteMain {
-        max-width: 85vh;
+        max-width: calc( 100vh * 10 / 15 );
         min-width: 480px;
     }
 }
@@ -79,7 +79,7 @@ body {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .siteMain {
-        max-width: 85vh;
+        max-width: calc( 100vh * 10 / 15 );
         min-width: 480px;
     }
 }
