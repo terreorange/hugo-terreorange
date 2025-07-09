@@ -71,7 +71,7 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .siteMain {
-        max-width: 70vh;
+        max-width: 90vh;
         min-width: 480px;
     }
 }
@@ -79,7 +79,7 @@ body {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .siteMain {
-        max-width: 70vh;
+        max-width: 100vh;
         min-width: 480px;
     }
 }
